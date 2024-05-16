@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WS01.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="MySQL" HorizontalTextAlignment="Center" TextColor="White" FontSize="56" FontAttributes="Bold"/>
+        </Frame>
+        <Image Source="Mysql" Margin="20"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Margin="10">
+            <Button x:Name="btnCadastrar" Text="Cadastrar" BackgroundColor="White" FontAttributes="Bold" Clicked="btnCadastrar_Clicked"/>
+            <Button x:Name="btnListagem" Text="Listagem" BackgroundColor="White" FontAttributes="Bold" Clicked="btnListagem_Clicked"/>
+            <Button x:Name="btnSair" Text="Sair" BackgroundColor="Red" FontAttributes="Bold" CornerRadius="25" Clicked="btnSair_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

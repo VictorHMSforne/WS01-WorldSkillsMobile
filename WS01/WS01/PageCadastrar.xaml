@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WS01.PageCadastrar" Title="Cadastro de Pessoas">
+    <ContentPage.Content>
+        <StackLayout Margin="15">
+            <Label Text="Nome" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="txtNome" Keyboard="Default"/>
+            <Label Text="Idade" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="txtIdade" Keyboard="Numeric"/>
+            <Button x:Name="btnCadastrar" Text="Cadastrar" Background="Green" FontAttributes="Bold" Clicked="btnCadastrar_Clicked" CornerRadius="25" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
